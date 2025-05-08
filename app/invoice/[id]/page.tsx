@@ -1,9 +1,8 @@
 import PaymentGateway from "@/components/CheckoutPage";
 import PromoBanner from "@/components/PromoBanner";
-import Image from "next/image";
 
-const Page = async ({ params }: { params: { id: string } }) => {
-  const { id } = params;
+const Page = async ({ params }: any) => {
+  const { id } = await params;
 
   return (
     <>
