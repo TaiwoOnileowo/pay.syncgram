@@ -26,8 +26,11 @@ export default function NoInvoice() {
           Missing Invoice ID
         </h2>
         <p className="text-gray-600 text-center mb-6">
-          No invoice ID was provided. Please check your payment link or contact
-          support for assistance.
+          No invoice ID was provided. Please check your payment link or{" "}
+          <Link href={"https://t.me/SyncGramSupportBot"} className="underline">
+            contact support
+          </Link>{" "}
+          for assistance.
         </p>
 
         <div className="bg-[#1A1F37]/10 p-4 rounded-lg w-full mb-6">
