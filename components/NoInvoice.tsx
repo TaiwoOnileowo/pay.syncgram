@@ -40,7 +40,7 @@ export default function NoInvoice() {
           </p>
         </div>
 
-        <Link href="https://syncgram.com">
+        <Link href="https://sync-gram.com">
           <Button className=" bg-[#0075FF] hover:bg--[#0075FF]/90 gap-2">
             <Home className="h-4 w-4" />
             Go to Homepage

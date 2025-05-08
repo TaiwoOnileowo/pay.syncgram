@@ -14,7 +14,7 @@ export default function PromoBanner() {
           </p>
         </div>
         <Link
-          href="https://syncgram.com"
+          href="https://sync-gram.com"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1 text-[#A384FF] hover:text-white transition-colors duration-200 text-xs font-medium"
